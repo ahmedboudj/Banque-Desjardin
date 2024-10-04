@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <!--donner un titre a la page-->
+    <title>Informations sur le client</title>
+    <link rel="stylesheet" href="Informations sur le client.css">
+</head>
+
+<body>
+    <!--affichage d'un grand titre en haut de la page-->
+    <h1>-------------------------------------------Formulaire d'inscription-------------------------------------------
+    </h1>
+    <br><br><br>
+    <!--creation d'un formulaire-->
+    <form id="inscription" name="inscription" action="" method="post">
+        <div>
+            <!--creation du label Nom-->
+            <input type="text" name="nom" placeholder="Nom" id="Nom">
+        </div>
+        <br>
+        <div>
+            <!--création de label prénom-->
+            <input type="text" name="prenom" placeholder="Prénom" id="Prénom">
+        </div>
+        <br>
+        <div>
+            <label>Genre :</label>
+            <br>
+            <!--création d'un radio-->
+            <span>Masculin</span>
+            <input type="radio" name="m" value="1" id="masculin">
+            <span>Féminin</span>
+            <input type="radio" name="m" value="2" id="féminin"><br>
+        </div>
+        <br>
+        <div>
+            <!--creation de label adresse-->
+            <input type="text" name="adresse" placeholder="Adresse" value="" id="Adresse">
+        </div>
+        <br>
+        <div>
+            <!--création de label tel-->
+            <input type="number" name="tel" placeholder="Tel: (514)-*** ****" value="" id="Tel">
+        </div>
+        <br>
+        <div>
+            <!--création de label email-->
+            <input type="email" name="email" placeholder="E-mail@hotmail.com" value="" id="email">
+        </div>
+        <br>
+        <div>
+            <!--création de label mot de passe-->
+            <input type="password" name="mdp" placeholder="Mot de passe" value="" id="Mot de passe">
+            <br><br>
+            <input type="password" name="mdp-confirmation" placeholder="Confirmation du mot de passe"
+                id="Confirmation du mot de passe">
+        </div>
+
+        <br><br><br>
+        <div>
+            <!--creation d'un bouton Envoyer-->
+            <input type="submit" value="Envoyer" onclick="envoyer()">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!--création de bouton Vider-->
+            <input type="reset" value="Vider" onclick="vider()">
+        </div>
+    </form>
+    <br><br>
+    <div>
+        <ul>
+            <!--ajouter un hyperlien -->
+            <a href="Menu banque.html">
+                <li><u><i>Menu Principal</i></u></li>
+            </a>
+        </ul>
+    </div>
+<!--ajouter un lien pour javascript-->
+    <script src="Informations sur le client.js"></script>
+
+</body>
+
+</html>

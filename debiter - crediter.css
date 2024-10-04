@@ -1,0 +1,24 @@
+/*modifier le body on ajoute un background */
+body {
+    background: url("debiter.jpg");
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+/*souligner le titre et le centrer et lui donner une couleur*/
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+}
+/*caractéristique du champ commentaire*/
+input,
+textarea {
+    font-size: large;
+    text-align: center;
+}
+/*caractéristique du label*/
+label {
+    display: inline-block;
+    width: 90px;
+}

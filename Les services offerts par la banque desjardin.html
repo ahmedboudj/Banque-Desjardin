@@ -1,0 +1,88 @@
+<html>
+
+<head>
+    <title>Les services offerts par la banque desjardin</title>
+    <!--Associé la page html avec la page css-->
+    <link rel="stylesheet" href="Les services offerts par la banque desjardin.css">
+
+</head>
+
+<body>
+    <form name="form1" action="" method="post">
+        <div>
+            <!--attribuer un id au titre et une fonction-->
+            <h1 id="montitre" onclick="maFunction()">Les Services Offerts Par La Banque Desjardin</h1>
+        </div>
+        <br>
+        <div onclick="changepolice()">
+            <!--creation d'un sous titre-->
+            <h2>Service d'assurance collective :</h2>
+            <p>
+                Consultez les protections dont vous bénéficiez avec votre emplyeur.
+                L'assurance collective<br> couvre certains frais non remboursés par le régime public d'assurance
+                maladie,<br>
+                comme les soins dentaires.
+            </p>
+            <label>Services : </label>
+            <!--creation d'une liste Déroulante -->
+            <select name="Service">
+                <option value="0">-----Choix de service -----</option>
+                <option value="">Gestion des couts</option>
+                <option value="1">Prévention et mieux-etre</option>
+                <option value="2">Service d'assistance</option>
+                <option value="3">Administration du régime</option>
+            </select>
+
+            <!--création d'un sous titre-->
+            <h2>Services de financement :</h2>
+            <p>
+                Obtenez toute l'information disponible sur vos produits de financement (prêts) chez Desjardins,<br>
+                dans la section Cartes, prêts et marges de crédit de la page d’accueil d’AccèsD :<br>
+                Obtenez, sous l'onglet Financement d'AccèsD, toute l'information disponible sur vos produits de
+                financement (prêts)<br>
+                détenus chez Desjardins :<br>
+
+            <!--ajouter une lite non numéroter-->
+            <ul>
+                <li>prêt personnel</li>
+                <li>prêt automobile</li>
+                <li>prêt hypothécaire</li>
+                <li>prêt REER</li>
+                <li>prêt étudiant</li>
+                <li>marge de crédit</li>
+                <li>Accord D Desjardins.</li>
+            </ul>
+            </p>
+            <!--ajout d'un sous titre-->
+            <h2>Service de la gestion privée Desjardins :</h2>
+            <p>
+                Le service de gestion discrétionnaire de portefeuille de Gestion privée Desjardins vous permet de<br>
+                déléguer la gestion de vos actifs à des professionnels et de profiter de l’expertise<br>
+                d’une équipe expérimentée. Nous répondons à vos besoins sophistiqués en prenant en<br>
+                charge l’ensemble de vos affaires financières grâce à notre approche personnalisée.
+            </p>
+             <!--ajout d'un sous titre-->
+            <h2>Services d'épargne et de placements :</h2>
+            <p>
+                Le REER est un régime enregistré profitable pour épargner
+                à l'abri de l'impôt en prévision de votre retraite. Les cotisations<br>
+                au REER diminuent votre revenu imposable, ce qui fait plus d'argent dans<br>
+                vos poches pour votre futur.
+            </p>
+        </div>
+        <!--ajouter un champ de text-->
+        <textarea name="" rows="5" cols="60" placeholder="Commentaire ..."></textarea>
+    </form>
+    <div>
+        <!--mettre un hypert-lien qui dirige ver le menu principal-->
+        <ul>
+            <a href="Menu banque.html">
+                <li><u><i>Menu Principal</i></u></li>
+            </a>
+        </ul>
+    </div>
+    <!--l'association de la page html avec JavaScript-->
+    <script src="Les services offerts par la banque desjardin.js"></script>
+</body>
+
+</html>

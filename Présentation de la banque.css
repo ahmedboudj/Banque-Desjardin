@@ -1,0 +1,15 @@
+/*modifier la taille de l'image*/
+img{
+    width: 30%;
+}
+/*modifier le body on ajoute un background */
+body{
+    background-image: url("desjardin.png");
+    background-size: 1300px 1400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*souligne le titre*/
+h1 {
+    text-decoration: underline;
+}
+

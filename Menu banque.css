@@ -1,0 +1,11 @@
+/*souligner le titre */
+h1 {
+    text-decoration: overline;
+}
+/*modifier le body on ajoute un background */
+body {
+    text-align: center;
+    font-style: italic;
+    background-image: url("des1.png");
+    background-size:1300px 700px;
+}

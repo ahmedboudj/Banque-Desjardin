@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <!--le titre de la page-->
+    <title>débiter ou crediter votre compte</title>
+    <link rel="stylesheet" href="debiter - crediter.css">
+</head>
+
+<body>
+    <!--le grand titre qui s'affiche en haut de la page-->
+    <h1>Débiter ou Créditer votre compte desjardin</h1>
+    <br><br><br><br>
+    <form name="form">
+        <div>
+            <!--creation de la 1er label-->
+            <label>Solde :</label>
+            <input type="number" name="solde" value="25000" readonly>
+        </div>
+        <br>
+        <div>
+            <!--creation de la 2eme label-->
+            <label>Saisir le montant :</label>
+            <input type="number" name="montant" value="">
+        </div>
+        <br><br><br>
+        <!--création du boutton débiter-->
+        <input type="button" name="button" value="debiter" onclick="debiter()">
+        <br><br><br>
+        <!--création du bouton créditer-->
+        <input type="button" name="button" value="crediter" onclick="crediter()">
+        <br><br><br><br>
+        <!--création d'un espace label pour afficher le résultat-->
+        <input type="number" name="resultat" value="">
+    </form>
+    <br><br><br><br><br><br><br>
+    <div>
+        <ul>
+            <!--ajout d'un hyperlien-->
+            <a href="Menu banque.html">
+                <li><u><i>Menu Principal</i></u></li>
+            </a>
+        </ul>
+    </div>
+    <!--ajout d'un lien pour javascript-->
+    <script src="debiter - crediter.js"></script>
+</body>
+
+</html>

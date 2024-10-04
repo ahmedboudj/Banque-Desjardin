@@ -1,0 +1,16 @@
+/*modifier le body on ajoute un background et on a centrer le text*/
+body {
+    background: url("form.webp");
+    background-size: cover;
+    text-align: center;
+}
+/*la taille du champ input*/
+input {
+    font-size: 17px;
+}
+/*souligner le titre et le centrer + couleur*/
+h1 {
+    text-align: center;
+    text-decoration: overline;
+    color: green;
+}
